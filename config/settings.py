@@ -26,9 +26,9 @@ ko_formats.DATETIME_FORMAT = 'Y-m-d G:i:s'
 SECRET_KEY = '=tdnkp@=#6sv9--id09#d2cywu@gvny_2028i!3#lnz&2mwv3v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.pythonanywhere.com']
 
 
 # Application definition
